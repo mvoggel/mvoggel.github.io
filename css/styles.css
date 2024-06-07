@@ -114,6 +114,28 @@ main {
     height: auto;
     object-fit: cover;
     display: block;
+    filter: grayscale(100%); 
+}
+.splash-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6); /* Dark overlay */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.splash-description {
+    padding: 10px;
+    background-color: #333; /* Dark background for better visibility */
+    color: white;
+    text-align: center;
+    border-top: 1px solid black;
+    margin-top: 5px;
 }
 /*
 .splash-content {
@@ -130,7 +152,7 @@ main {
     font-size: 1.5em;
     text-align: center;
     transition: background-color 0.3s;
-}*/
+}
 
 .splash-description {
     padding: 10px;
@@ -139,4 +161,4 @@ main {
     text-align: center;
     border-top: 1px solid black;
     margin-top: 5px;
-}
+}*/
