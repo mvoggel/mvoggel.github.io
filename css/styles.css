@@ -82,6 +82,8 @@ main {
 
 .accordion.active, .accordion:hover {
     background-color: #ccc;
+    border: 1px rgb(49, 49, 49);
+
 }
 
 .panel {
