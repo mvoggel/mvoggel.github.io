@@ -1,19 +1,15 @@
 <!-- development.xml -->
 <developmentProjects>
     <project>
-        <title>GitHub Repository: Machine Learning Models</title>
-        <description>Collection of various machine learning models implemented in Python.</description>
-        <technologies>Python, scikit-learn, TensorFlow, Keras</technologies>
-        <link>https://github.com/your-username/machine-learning-models</link>
+        <title> Web Interface: SQL and DB Management of online book store</title>
+        <description>Created using PHP, HTML, and CSS, that's intended use is for 
+        querying a database managed via MySQL Workbench. A connection is made for users to write and execute
+        SQL queries from the db, and given results screen in table format. </description>
+        <technologies>SQL, PHP, HTML/CSS, DB Management (MSQL Workbench), Github</technologies>
+        <link>https://github.com/mvoggel/DB-Systems-SQL-Querying</link>
     </project>
     <project>
-        <title>VS Code Extension: Code Snippets</title>
-        <description>Custom VS Code extension with useful code snippets for web development.</description>
-        <technologies>JavaScript, JSON, Visual Studio Code</technologies>
-        <link>https://github.com/your-username/vscode-code-snippets</link>
-    </project>
-    <project>
-        <title>Jupyter Notebook: Python Data Analysis</title>
+        <title>Python Data Analysis: Jupyter Notebook</title>
         <description>Data analysis programs using Jupyter Notebook, and numpy and pandas libraries in python.
                     Programs read data from an excel sheet (dynamic or static), and perform a number of actions 
                     such as PERT analyses, summary analytics, and/or Agile technique calculations. The actions are based on
@@ -23,4 +19,15 @@
         <technologies>Python, Jupyter, Data Science, Google Colab, Snowflake</technologies>
         <link>https://colab.research.google.com/drive/1jyIJvvjXZZYEhVwKvrDeIZBttj-6AktA?usp=sharing</link>
     </project>
+    <project> 
+        <title> Job Portal: JSP and Servlet Web Application </title>
+        <description>Semester final project using Intellij and PyCharm IDE. JSP and Servlet web application serving as a job portal (similar to other
+        job application hosting sites like LinkedIn), which can be used by both Job seekers, and employers. Uses JSP for
+        front-end development, servlets for backend, XML as data storage/access/session data. MySQL Workbench
+        utilized for user data, like username, password, jobs "applied", etc. DB connected to site, and fetches for validation. Users can control
+        which jobs to apply for, and see the full listing.  </description> 
+        <technologies> JSP (HTML, CSS, JS), XML, DB Management (MSQL Workbench), PyCharm, Intellij, Servlets </technologies> 
+        <link> https://github.com/mvoggel/COMP6000-SemesterProject </link>
+    </project> 
+
 </developmentProjects>
