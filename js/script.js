@@ -43,14 +43,13 @@ document.addEventListener("DOMContentLoaded", function() {
                         <p><strong>Results:</strong> ${results}</p>
                     `;
 
-                    accordionButton.addEventListener("mouseenter", function() {
-                        this.classList.remove("active");
-                        panelDiv.style.display = "none";
-                    });
-
-                    accordionButton.addEventListener("mouseleave", function() {
-                        this.classList.add("active");
-                        panelDiv.style.display = "block";
+                    accordionButton.addEventListener("click", function() {
+                        this.classList.toggle("active");
+                        if (panelDiv.style.display === "block") {
+                            panelDiv.style.display = "none";
+                        } else {
+                            panelDiv.style.display = "block";
+                        }
                     });
 
                     container.appendChild(accordionButton);
@@ -87,14 +86,13 @@ document.addEventListener("DOMContentLoaded", function() {
                         <p><strong>Link:</strong> <a href="${link}" target="_blank">${link}</a></p>
                     `;
 
-                    accordionButton.addEventListener("mouseenter", function() {
-                        this.classList.remove("active");
-                        panelDiv.style.display = "none";
-                    });
-
-                    accordionButton.addEventListener("mouseleave", function() {
-                        this.classList.add("active");
-                        panelDiv.style.display = "block";
+                    accordionButton.addEventListener("click", function() {
+                        this.classList.toggle("active");
+                        if (panelDiv.style.display === "block") {
+                            panelDiv.style.display = "none";
+                        } else {
+                            panelDiv.style.display = "block";
+                        }
                     });
 
                     container.appendChild(accordionButton);
