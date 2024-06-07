@@ -13,9 +13,14 @@
         <link>https://github.com/your-username/vscode-code-snippets</link>
     </project>
     <project>
-        <title>Jupyter Notebook: Data Analysis</title>
-        <description>Comprehensive data analysis project using Jupyter Notebook and Pandas.</description>
-        <technologies>Python, Pandas, Jupyter Notebook</technologies>
-        <link>https://github.com/your-username/data-analysis</link>
+        <title>Jupyter Notebook: Python Data Analysis</title>
+        <description>Data analysis programs using Jupyter Notebook, and numpy and pandas libraries in python.
+                    Programs read data from an excel sheet (dynamic or static), and perform a number of actions 
+                    such as PERT analyses, summary analytics, and/or Agile technique calculations. The actions are based on
+                    user input.
+                    Core concepts and code are being integrated into Snowflake, which connects directly with our PM Software
+                    via an API connection. </description>
+        <technologies>Python, Jupyter, Data Science, Google Colab, Snowflake</technologies>
+        <link>https://colab.research.google.com/drive/1jyIJvvjXZZYEhVwKvrDeIZBttj-6AktA?usp=sharing</link>
     </project>
 </developmentProjects>
