@@ -1,0 +1,21 @@
+<!-- development.xml -->
+<developmentProjects>
+    <project>
+        <title>GitHub Repository: Machine Learning Models</title>
+        <description>Collection of various machine learning models implemented in Python.</description>
+        <technologies>Python, scikit-learn, TensorFlow, Keras</technologies>
+        <link>https://github.com/your-username/machine-learning-models</link>
+    </project>
+    <project>
+        <title>VS Code Extension: Code Snippets</title>
+        <description>Custom VS Code extension with useful code snippets for web development.</description>
+        <technologies>JavaScript, JSON, Visual Studio Code</technologies>
+        <link>https://github.com/your-username/vscode-code-snippets</link>
+    </project>
+    <project>
+        <title>Jupyter Notebook: Data Analysis</title>
+        <description>Comprehensive data analysis project using Jupyter Notebook and Pandas.</description>
+        <technologies>Python, Pandas, Jupyter Notebook</technologies>
+        <link>https://github.com/your-username/data-analysis</link>
+    </project>
+</developmentProjects>
