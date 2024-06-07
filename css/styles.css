@@ -3,6 +3,9 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 header {
@@ -12,6 +15,7 @@ header {
     padding: 20px;
     background-color: #333;
     color: white;
+    width: 100%;
 }
 
 .header-left {
@@ -52,7 +56,13 @@ nav ul li a {
 }
 
 main {
+    width: 80%;
+    max-width: 1200px;
     padding: 20px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #projects-container,
@@ -89,7 +99,6 @@ main {
 .splash-container {
     display: flex;
     flex-wrap: wrap;
-   /* padding: 20px;*/
     justify-content: center;
 }
 
@@ -102,7 +111,7 @@ main {
     transition: transform 0.3s;
     border: 1px solid black;
     border-radius: 5px;
-    text-decoration: none; /* Ensure links look clickable */
+    text-decoration: none;
 }
 
 .splash-box:hover {
@@ -114,34 +123,13 @@ main {
     height: auto;
     object-fit: cover;
     display: block;
-    filter: grayscale(100%); 
 }
-.splash-title {
+
+.splash-content {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
-    font-size: 1.5em;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.6); /* Dark overlay */
-    padding: 10px;
-    border-radius: 5px;
-}
-
-.splash-description {
-    padding: 10px;
-    background-color: #333; /* Dark background for better visibility */
-    color: white;
-    text-align: center;
-    border-top: 1px solid black;
-    margin-top: 5px;
-}
-/*
-.splash-content {
-    position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
@@ -152,6 +140,12 @@ main {
     font-size: 1.5em;
     text-align: center;
     transition: background-color 0.3s;
+    padding: 10px;
+    background-color: rgba(128, 128, 128, 0.7);
+}
+
+.splash-box:hover .splash-content {
+    background-color: rgba(128, 128, 128, 0.5);
 }
 
 .splash-description {
@@ -160,5 +154,4 @@ main {
     color: black;
     text-align: center;
     border-top: 1px solid black;
-    margin-top: 5px;
-}*/
+}
