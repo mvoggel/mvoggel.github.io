@@ -1,4 +1,14 @@
+function loadHeader() {
+    fetch('header.html')
+        .then(response => response.text())
+        .then(data => {
+            document.querySelector('header').outerHTML = data;
+        });
+}
+
 document.addEventListener("DOMContentLoaded", function() {
+    loadHeader();
+
     fetch('xml/projects.xml')
         .then(response => response.text())
         .then(data => {
