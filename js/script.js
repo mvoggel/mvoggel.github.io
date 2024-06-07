@@ -28,11 +28,12 @@ document.addEventListener("DOMContentLoaded", function() {
                     const results = project.getElementsByTagName("results")[0].textContent;
 
                     const accordionButton = document.createElement("button");
-                    accordionButton.className = "accordion";
+                    accordionButton.className = "accordion active";
                     accordionButton.innerText = title;
 
                     const panelDiv = document.createElement("div");
                     panelDiv.className = "panel";
+                    panelDiv.style.display = "block";
                     panelDiv.innerHTML = `
                         <p><strong>Role:</strong> ${role}</p>
                         <p><strong>Description:</strong> ${description}</p>
@@ -42,14 +43,14 @@ document.addEventListener("DOMContentLoaded", function() {
                         <p><strong>Results:</strong> ${results}</p>
                     `;
 
-                    accordionButton.addEventListener("click", function() {
-                        this.classList.toggle("active");
-                        const panel = this.nextElementSibling;
-                        if (panel.style.display === "block") {
-                            panel.style.display = "none";
-                        } else {
-                            panel.style.display = "block";
-                        }
+                    accordionButton.addEventListener("mouseenter", function() {
+                        this.classList.remove("active");
+                        panelDiv.style.display = "none";
+                    });
+
+                    accordionButton.addEventListener("mouseleave", function() {
+                        this.classList.add("active");
+                        panelDiv.style.display = "block";
                     });
 
                     container.appendChild(accordionButton);
@@ -74,25 +75,26 @@ document.addEventListener("DOMContentLoaded", function() {
                     const link = project.getElementsByTagName("link")[0].textContent;
 
                     const accordionButton = document.createElement("button");
-                    accordionButton.className = "accordion";
+                    accordionButton.className = "accordion active";
                     accordionButton.innerText = title;
 
                     const panelDiv = document.createElement("div");
                     panelDiv.className = "panel";
+                    panelDiv.style.display = "block";
                     panelDiv.innerHTML = `
                         <p><strong>Description:</strong> ${description}</p>
                         <p><strong>Technologies:</strong> ${technologies}</p>
                         <p><strong>Link:</strong> <a href="${link}" target="_blank">${link}</a></p>
                     `;
 
-                    accordionButton.addEventListener("click", function() {
-                        this.classList.toggle("active");
-                        const panel = this.nextElementSibling;
-                        if (panel.style.display === "block") {
-                            panel.style.display = "none";
-                        } else {
-                            panel.style.display = "block";
-                        }
+                    accordionButton.addEventListener("mouseenter", function() {
+                        this.classList.remove("active");
+                        panelDiv.style.display = "none";
+                    });
+
+                    accordionButton.addEventListener("mouseleave", function() {
+                        this.classList.add("active");
+                        panelDiv.style.display = "block";
                     });
 
                     container.appendChild(accordionButton);

@@ -55,7 +55,8 @@ main {
     padding: 20px;
 }
 
-#projects-container {
+#projects-container,
+#development-container {
     margin-top: 20px;
 }
 
@@ -80,7 +81,7 @@ main {
 .panel {
     padding: 0 18px;
     background-color: white;
-    display: none;
+    display: block;
     overflow: hidden;
     border: 1px solid #ccc;
 }
