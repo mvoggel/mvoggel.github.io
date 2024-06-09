@@ -29,5 +29,13 @@
         <technologies> JSP (HTML, CSS, JS), XML, DB Management (MSQL Workbench), PyCharm, Intellij, Servlets </technologies> 
         <link> https://github.com/mvoggel/COMP6000-SemesterProject </link>
     </project> 
+        <project> 
+        <title> Linux: Advanced OS Projects, beginner to advanced</title>
+        <description>Advanced OS course projects. All projects completed within a Docker Image presenting the virtual machine being 
+        used. Coded mainly in C, MakeFile and pthread understanding is showcased, as well as main and disk memories and batch processing. 
+        Final project was fully functioning file system, which also simulates block management.</description> 
+        <technologies> C, Linux, Terminal, Docker Desktop </technologies> 
+        <link> https://github.com/mvoggel/Adv-Op-Sys/tree/main </link>
+    </project> 
 
 </developmentProjects>
