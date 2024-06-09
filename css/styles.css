@@ -28,7 +28,7 @@ header {
 p {
     line-height: 1.5;
   }
-  
+
 .site-title {
     margin: 0;
 }
@@ -87,7 +87,6 @@ main {
 }
 
 .accordion.active, .accordion:hover {
-    background-color: #e2e2e2;
     border-style: solid;
     border: 1px rgb(49, 49, 49);
 
