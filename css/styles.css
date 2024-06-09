@@ -28,6 +28,7 @@ header {
 p {
     line-height: 1.5;
   }
+  
 .site-title {
     margin: 0;
 }
@@ -72,6 +73,7 @@ main {
     background-color: #f9f9f9;
     font-family: Consolas, monospace;
     color: #444;
+    border-style: solid;
     cursor: pointer;
     padding: 18px;
     width: 100%;
