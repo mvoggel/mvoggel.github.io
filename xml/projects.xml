@@ -9,5 +9,14 @@
         <technologies>WordPress, Jira, Google Analytics</technologies>
         <results>Successfully migrated 500+ pages with 0% data loss, improved site performance by 20%.</results>
     </project>
+        <project>
+        <title>Forensics</title>
+        <role>Project Manager and Web Content Manager</role>
+        <description>Migrating content while ensuring minimal downtime and maintaining data integrity.</description>
+        <challenges>Migrating content while ensuring minimal downtime and maintaining data integrity.</challenges>
+        <solutions>Implemented a phased migration plan, conducted thorough testing, and coordinated closely with IT teams.</solutions>
+        <technologies>WordPress, Jira, Google Analytics</technologies>
+        <results>Successfully migrated 500+ pages with 0% data loss, improved site performance by 20%.</results>
+    </project>
     <!-- Add more projects as needed -->
 </projects>
