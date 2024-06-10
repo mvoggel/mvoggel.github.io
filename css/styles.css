@@ -75,8 +75,13 @@ nav ul li a {
     .nav-links {
         display: none;
         flex-direction: column;
-        width: 100%;
-        background: #333;
+        position: absolute;
+        top: 70px;
+        right: 0;
+        width: 200px;
+        background-color: #333;
+        z-index: 10;
+        box-shadow: 0 8px 16px rgba(0,0,0,0.3);
     }
 
     .nav-links.active {
