@@ -3,27 +3,28 @@ function loadHeader() {
         .then(response => response.text())
         .then(data => {
             document.querySelector('header').outerHTML = data;
+            addHamburgerListener(); // Add the listener after loading the header
         });
 }
-document.querySelectorAll('.accordion').forEach(header => {
-    header.addEventListener('click', () => {
-        const panel = header.nextElementSibling;
-        panel.classList.toggle('closed');
-    });
-});
 
-document.addEventListener('DOMContentLoaded', () => {
+function addHamburgerListener() {
     const hamburger = document.querySelector('.hamburger');
     const navLinks = document.querySelector('.nav-links');
 
     hamburger.addEventListener('click', () => {
         navLinks.classList.toggle('active');
     });
-});
+}
 
-
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener('DOMContentLoaded', () => {
     loadHeader();
+
+    document.querySelectorAll('.accordion').forEach(header => {
+        header.addEventListener('click', () => {
+            const panel = header.nextElementSibling;
+            panel.classList.toggle('closed');
+        });
+    });
 
     if (document.getElementById("projects-container")) {
         fetch('xml/projects.xml')
