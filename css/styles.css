@@ -25,9 +25,10 @@ header {
     border-radius: 20%;
     margin-right: 20px;
 }
+
 p {
     line-height: 1.5;
-  }
+}
 
 .site-title {
     margin: 0;
@@ -73,11 +74,10 @@ main {
     background-color: #c4c4c4;
     font-family: Consolas, monospace;
     color: #444;
-    border-style: solid;
+    border: 1px solid black;
     cursor: pointer;
     padding: 18px;
     width: 100%;
-    border: 1px rgb(0, 0, 0);
     text-align: left;
     font-size: 15px;
     transition: 0.4s;
@@ -85,11 +85,8 @@ main {
 }
 
 .accordion.active, .accordion:hover {
-    border-style: solid;
-    border: 1px rgb(0, 0, 0);
-    font-style: bold;
+    font-weight: bold;
     font-size: 1.3rem;
-
 }
 
 .panel {
@@ -99,6 +96,12 @@ main {
     overflow: hidden;
     border: 1px solid #ccc;
     margin-bottom: 10px;
+    max-height: 2000px; /* Ensure a large enough max-height to show content */
+    transition: max-height 0.2s ease-out;
+}
+
+.panel.closed {
+    max-height: 0; /* When closed, max-height should be set to 0 */
 }
 
 .splash-container {
@@ -128,7 +131,7 @@ main {
     height: auto;
     object-fit: cover;
     display: block;
-    filter: grayscale(100%); 
+    filter: grayscale(100%);
 }
 
 .splash-title {

@@ -5,6 +5,12 @@ function loadHeader() {
             document.querySelector('header').outerHTML = data;
         });
 }
+document.querySelectorAll('.accordion').forEach(header => {
+    header.addEventListener('click', () => {
+        const panel = header.nextElementSibling;
+        panel.classList.toggle('closed');
+    });
+});
 
 document.addEventListener("DOMContentLoaded", function() {
     loadHeader();
