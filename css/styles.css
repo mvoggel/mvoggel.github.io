@@ -37,7 +37,7 @@ p {
 .header-right {
     display: flex;
     align-items: center;
-    font-size: 44px;
+    font-size: 2rem;
 }
 
 nav ul {
