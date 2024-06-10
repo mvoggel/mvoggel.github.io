@@ -67,7 +67,8 @@ nav ul li a {
     border-radius: 5px;
     height: 4px;
     margin: 4px;
-    width: 25px;
+    width: 125px;
+    font-size: 1rem;
 }
 
 /* Responsive Styles */
