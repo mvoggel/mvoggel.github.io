@@ -173,6 +173,9 @@ main {
     border: 1px solid black;
     border-radius: 5px;
     text-decoration: none; /* Ensure links look clickable */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* Align children at the bottom *//* Ensure a fixed height for the splash box */
 }
 
 .splash-box:hover {
@@ -181,12 +184,27 @@ main {
 
 .splash-box img {
     width: 100%;
-    height: auto;
+    height: 50%; /* Take up the top half */
     object-fit: cover;
     display: block;
     filter: grayscale(80%);
     opacity: 50%;
 }
+
+.splash-description {
+    padding: 10px;
+    background-color: #333; /* Dark background for better visibility */
+    color: white;
+    text-align: center;
+    border-top: 1px solid black;
+    margin: 0; /* Remove margin */
+    flex-grow: 1; /* Ensure it takes up the remaining space */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%; /* Take up the bottom half */
+}
+
 
 .splash-title {
     position: absolute;
@@ -199,14 +217,4 @@ main {
     background-color: rgba(0, 0, 0, 0.6); /* Dark overlay */
     padding: 10px;
     border-radius: 5px;
-}
-
-.splash-description {
-    padding: 10px;
-    background-color: #333; /* Dark background for better visibility */
-    object-fit: cover;
-    color: white;
-    text-align: center;
-    border-top: 1px solid black;
-    margin-top: 5px;
 }
