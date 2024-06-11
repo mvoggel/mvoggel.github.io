@@ -40,7 +40,6 @@ document.addEventListener('DOMContentLoaded', () => {
                     const role = project.getElementsByTagName("role")[0].textContent;
                     const description = project.getElementsByTagName("description")[0].textContent;
                     const challenges = project.getElementsByTagName("challenges")[0].textContent;
-                    const solutions = project.getElementsByTagName("solutions")[0].textContent;
                     const technologies = project.getElementsByTagName("technologies")[0].textContent;
                     const results = project.getElementsByTagName("results")[0].textContent;
 
@@ -55,7 +54,6 @@ document.addEventListener('DOMContentLoaded', () => {
                         <p><strong>Role:</strong> ${role}</p>
                         <p><strong>Description:</strong> ${description}</p>
                         <p><strong>Challenges:</strong> ${challenges}</p>
-                        <p><strong>Solutions:</strong> ${solutions}</p>
                         <p><strong>Technologies:</strong> ${technologies}</p>
                         <p><strong>Results:</strong> ${results}</p>
                     `;

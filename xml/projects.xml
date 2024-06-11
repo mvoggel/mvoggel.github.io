@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projects>
     <project>
-        <title>CMS Migration</title>
-        <role>Project Manager and Web Content Manager</role>
-        <description>Migrating content while ensuring minimal downtime and maintaining data integrity.</description>
-        <challenges>Migrating content while ensuring minimal downtime and maintaining data integrity.</challenges>
-        <solutions>Implemented a phased migration plan, conducted thorough testing, and coordinated closely with IT teams.</solutions>
-        <technologies>WordPress, Jira, Google Analytics</technologies>
-        <results>Successfully migrated 500+ pages with 0% data loss, improved site performance by 20%.</results>
+        <title>CMS Migration of B2B Site</title>
+        <role>Product Owner, Project Manager</role>
+        <description>First transition of large-scale static website to Content Management System (2020). Was in charge of managing development
+        lifecycle and milestones, content audit, review, and migration, and confirming stakeholder buy-in and approvals. </description>
+        <challenges>Coordination during COVID, impact of new technology on migration/design, upkeep of legacy site, stakeholder approvals, development delays</challenges>
+        <technologies>Umbraco, C#, Google Analytics</technologies>
+        <results>Successfully migrated 150+ pages into CMS, increased SEO, Accessibility scores, decreased development time for marketing needs by over 80%.</results>
     </project>
         <project>
         <title>Forensics</title>
         <role>Project Manager and Web Content Manager</role>
         <description>Migrating content while ensuring minimal downtime and maintaining data integrity.</description>
         <challenges>Migrating content while ensuring minimal downtime and maintaining data integrity.</challenges>
-        <solutions>Implemented a phased migration plan, conducted thorough testing, and coordinated closely with IT teams.</solutions>
         <technologies>WordPress, Jira, Google Analytics</technologies>
         <results>Successfully migrated 500+ pages with 0% data loss, improved site performance by 20%.</results>
     </project>
