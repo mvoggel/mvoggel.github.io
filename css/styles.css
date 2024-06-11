@@ -244,7 +244,7 @@ main {
     display: inline-block;
     white-space: nowrap;
     overflow: hidden;
-    animation: typing 2s steps(30, end), blink-caret 0.75s step-end infinite;
+    animation: typing 1.5s steps(15, end), blink-caret 0.75s step-end infinite;
 }
 
 @keyframes typing {
