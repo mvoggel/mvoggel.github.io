@@ -26,7 +26,7 @@ function typeTitle() {
         if (index < siteTitle.length) {
             titleElement.textContent += siteTitle.charAt(index);
             index++;
-            setTimeout(typeCharacter, 100); // Adjust typing speed here
+            setTimeout(typeCharacter, 5); // Adjust typing speed here
         } else {
             titleElement.classList.add("typing");
         }
