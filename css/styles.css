@@ -236,7 +236,7 @@ main {
 }
 
 #site-title::after {
-    content: '|';
+    /*content: '|';*/
     animation: blink 1s step-start infinite;
 }
 
