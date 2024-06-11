@@ -33,7 +33,6 @@ document.addEventListener('DOMContentLoaded', () => {
         const link = isDevelopment ? project.getElementsByTagName("link")[0].textContent : '';
         const role = !isDevelopment ? project.getElementsByTagName("role")[0].textContent : '';
         const challenges = !isDevelopment ? project.getElementsByTagName("challenges")[0].textContent : '';
-        const solutions = !isDevelopment ? project.getElementsByTagName("solutions")[0].textContent : '';
         const results = !isDevelopment ? project.getElementsByTagName("results")[0].textContent : '';
         const screenshot1 = project.getElementsByTagName("screenshot1")[0]?.textContent || '';
         const screenshot2 = project.getElementsByTagName("screenshot2")[0]?.textContent || '';
@@ -53,7 +52,6 @@ document.addEventListener('DOMContentLoaded', () => {
             panelContent += `
                 <p><strong>Role:</strong> ${role}</p>
                 <p><strong>Challenges:</strong> ${challenges}</p>
-                <p><strong>Solutions:</strong> ${solutions}</p>
                 <p><strong>Results:</strong> ${results}</p>
             `;
         }
