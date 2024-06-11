@@ -18,7 +18,7 @@ function addHamburgerListener() {
 }
 
 function typeTitle() {
-    const siteTitle = "Matthew Voggel."; // Adjust as needed or fetch dynamically
+    const siteTitle = document.getElementById("site-title"); // Adjust as needed or fetch dynamically
     const titleElement = document.getElementById("site-title");
     let index = 0;
 
