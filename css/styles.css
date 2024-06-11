@@ -236,13 +236,13 @@ main {
 }
 
 #site-title::after {
-    /*content: '|';*/
+    content: '|';
     animation: blink 1s step-start infinite;
 }
 
 .typing {
     display: inline-block;
-    border-right: 2px solid;
+    /*border-right: 2px solid;*/
     white-space: nowrap;
     overflow: hidden;
     animation: typing 2s steps(30, end), blink-caret 0.75s step-end infinite;
