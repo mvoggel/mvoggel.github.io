@@ -218,3 +218,14 @@ main {
     padding: 10px;
     border-radius: 5px;
 }
+.screenshot-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.screenshot {
+    width: 48%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}

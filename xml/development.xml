@@ -7,6 +7,8 @@
         SQL queries from the db, and given results screen in table format. </description>
         <technologies>SQL, PHP, HTML/CSS, DB Management (MSQL Workbench), Github</technologies>
         <link>https://github.com/mvoggel/DB-Systems-SQL-Querying</link>
+        <screenshot1> images/manager.jpeg </screenshot1>
+        <screenshot2>/images/manager.jpeg </screenshot2>
     </project>
     <project>
         <title>Python Data Analysis: Jupyter Notebook</title>
@@ -18,6 +20,8 @@
                     via an API connection. </description>
         <technologies>Python, Jupyter, Data Science, Google Colab, Snowflake</technologies>
         <link>https://colab.research.google.com/drive/1jyIJvvjXZZYEhVwKvrDeIZBttj-6AktA?usp=sharing</link>
+        <screenshot1> images/manager.jpeg </screenshot1>
+        <screenshot2>/images/manager.jpeg </screenshot2>
     </project>
     <project> 
         <title> Job Portal: JSP and Servlet Web Application </title>
@@ -28,6 +32,8 @@
         which jobs to apply for, and see the full listing.  </description> 
         <technologies> JSP (HTML, CSS, JS), XML, DB Management (MSQL Workbench), PyCharm, Intellij, Servlets </technologies> 
         <link> https://github.com/mvoggel/COMP6000-SemesterProject </link>
+        <screenshot1> images/manager.jpeg </screenshot1>
+        <screenshot2>/images/manager.jpeg </screenshot2>
     </project> 
         <project> 
         <title> Linux: Advanced OS Projects, beginner to advanced</title>
@@ -36,6 +42,8 @@
         Final project was fully functioning file system, which also simulates block management.</description> 
         <technologies> C, Linux, Terminal, Docker Desktop </technologies> 
         <link> https://github.com/mvoggel/Adv-Op-Sys/tree/main </link>
+        <screenshot1> images/manager.jpeg </screenshot1>
+        <screenshot2>/images/manager.jpeg </screenshot2>
     </project> 
 
 </developmentProjects>

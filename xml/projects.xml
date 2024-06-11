@@ -8,6 +8,8 @@
         <challenges>Coordination during COVID, impact of new technology on migration/design, upkeep of legacy site, stakeholder approvals, development delays</challenges>
         <technologies>Umbraco, C#, Google Analytics</technologies>
         <results>Successfully migrated 150+ pages into CMS, increased SEO, Accessibility scores, decreased development time for marketing needs by over 80%.</results>
+        <screenshot1> images/manager.jpeg </screenshot1>
+        <screenshot2>/images/manager.jpeg </screenshot2>
     </project>
         <project>
         <title>Forensics</title>
@@ -16,6 +18,8 @@
         <challenges>Migrating content while ensuring minimal downtime and maintaining data integrity.</challenges>
         <technologies>WordPress, Jira, Google Analytics</technologies>
         <results>Successfully migrated 500+ pages with 0% data loss, improved site performance by 20%.</results>
+        <screenshot1>path/to/screenshot1.jpg</screenshot1>
+        <screenshot2>path/to/screenshot2.jpg</screenshot2>
     </project>
     <!-- Add more projects as needed -->
 </projects>
