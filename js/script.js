@@ -4,6 +4,7 @@ function loadHeader() {
         .then(data => {
             document.querySelector('header').outerHTML = data;
             addHamburgerListener(); // Add the listener after loading the header
+            typeTitle();
         });
 }
 
@@ -14,6 +15,24 @@ function addHamburgerListener() {
     hamburger.addEventListener('click', () => {
         navLinks.classList.toggle('active');
     });
+}
+
+function typeTitle() {
+    const siteTitle = "Matthew Voggel."; // Adjust as needed or fetch dynamically
+    const titleElement = document.getElementById("site-title");
+    let index = 0;
+
+    function typeCharacter() {
+        if (index < siteTitle.length) {
+            titleElement.textContent += siteTitle.charAt(index);
+            index++;
+            setTimeout(typeCharacter, 150); // Adjust typing speed here
+        } else {
+            titleElement.classList.add("typing");
+        }
+    }
+
+    typeCharacter();
 }
 
 document.addEventListener('DOMContentLoaded', () => {
