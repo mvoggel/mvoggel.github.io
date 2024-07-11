@@ -33,23 +33,23 @@
             width: 25px;
             height: 25px;
             left: calc(10% - 12.5px); /* Center the dot on the line */
-            background-color: #fff;
-            border: 4px solid #3e3e3e;
+            background-color: #bbb;
+            border: 4px solid transparent;
             top: 15px;
             border-radius: 50%;
             z-index: 1;
         }
         .timeline-container.red::after {
-            border-color: red;
+            background-color: red;
         }
         .timeline-container.green::after {
-            border-color: green;
+            background-color: green;
         }
         .timeline-container .date {
             position: absolute;
             width: 80px;
             left: calc(10% - 100px); /* Position the year to the left of the dot */
-            top: calc(15px - 12.5px); /* Center the year vertically with the dot */
+            top: calc(15px - 9px); /* Center the year vertically with the dot */
             font-size: 18px;
             color: #3e3e3e;
             text-align: right;
