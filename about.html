@@ -17,7 +17,7 @@
             width: 6px;
             background-color: #bbb;
             top: 0;
-            bottom: 0;
+            bottom: calc(15px + 25px + 4px); /* Stop at the top of the green dot */
             left: 10%;
             margin-left: -3px;
         }
@@ -32,7 +32,7 @@
             position: absolute;
             width: 25px;
             height: 25px;
-            left: 8%;
+            left: calc(10% - 12.5px); /* Center the dot on the line */
             background-color: #fff;
             border: 4px solid #bbb;
             top: 15px;
@@ -48,8 +48,8 @@
         .timeline-container .date {
             position: absolute;
             width: 80px;
-            left: 0;
-            top: 15px;
+            left: calc(10% - 100px); /* Position the year to the left of the dot */
+            top: calc(15px - 12.5px); /* Center the year vertically with the dot */
             font-size: 18px;
             color: #bbb;
             text-align: right;
