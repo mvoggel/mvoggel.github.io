@@ -18,7 +18,7 @@
             background-color: #bbb;
             top: 0;
             bottom: 0;
-            left: 20%;
+            left: 10%;
             margin-left: -3px;
         }
         .timeline-container {
@@ -32,33 +32,34 @@
             position: absolute;
             width: 25px;
             height: 25px;
-            right: -17px;
-            background-color: white;
+            left: 8%;
+            background-color: #fff;
             border: 4px solid #bbb;
             top: 15px;
             border-radius: 50%;
             z-index: 1;
         }
+        .timeline-container.red::after {
+            border-color: red;
+        }
+        .timeline-container.green::after {
+            border-color: green;
+        }
         .timeline-container .date {
             position: absolute;
             width: 80px;
-            left: -110px;
+            left: 0;
             top: 15px;
             font-size: 18px;
             color: #bbb;
             text-align: right;
-        }
-        .timeline-container.red .timeline-container::after {
-            border-color: red;
-        }
-        .timeline-container.green .timeline-container::after {
-            border-color: green;
         }
         .timeline-content {
             padding: 20px 30px;
             background-color: #f9f9f9;
             position: relative;
             border-radius: 6px;
+            margin-left: 100px;
         }
     </style>
 </head>
