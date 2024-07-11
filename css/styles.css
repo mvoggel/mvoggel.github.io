@@ -257,11 +257,11 @@ main {
 /* CSS */
 .button-35 {
   align-items: center;
-  background-color: #fff;
+  background-color: #5a5a5a;
   border-radius: 12px;
   box-shadow: transparent 0 0 0 3px,rgba(18, 18, 18, .1) 0 6px 20px;
   box-sizing: border-box;
-  color: #121212;
+  color: #eaeaea;
   cursor: pointer;
   display: inline-flex;
   flex: 1 1 auto;
