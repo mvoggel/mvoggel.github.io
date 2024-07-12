@@ -20,8 +20,8 @@
                     via an API connection. </description>
         <technologies>Python, Jupyter, Data Science, Google Colab, Snowflake</technologies>
         <link>https://colab.research.google.com/drive/1jyIJvvjXZZYEhVwKvrDeIZBttj-6AktA?usp=sharing</link>
-        <screenshot1> images/manager.jpeg </screenshot1>
-        <screenshot2>/images/manager.jpeg </screenshot2>
+        <screenshot1> images/jupyterWF.png </screenshot1>
+        <screenshot2>/images/WFDataAnalysis.png </screenshot2>
     </project>
     <project> 
         <title> Job Portal: JSP and Servlet Web Application </title>
