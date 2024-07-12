@@ -7,8 +7,8 @@
         SQL queries from the db, and given results screen in table format. </description>
         <technologies>SQL, PHP, HTML/CSS, DB Management (MSQL Workbench), Github</technologies>
         <link>https://github.com/mvoggel/DB-Systems-SQL-Querying</link>
-        <screenshot1> images/manager.jpeg </screenshot1>
-        <screenshot2>/images/manager.jpeg </screenshot2>
+        <screenshot1> /images/SQLtest.gif </screenshot1>
+        <screenshot2> images/db-home.png </screenshot2>
     </project>
     <project>
         <title>Python Data Analysis: Jupyter Notebook</title>
