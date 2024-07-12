@@ -32,8 +32,7 @@
         which jobs to apply for, and see the full listing.  </description> 
         <technologies> JSP (HTML, CSS, JS), XML, DB Management (MSQL Workbench), PyCharm, Intellij, Servlets </technologies> 
         <link> https://github.com/mvoggel/COMP6000-SemesterProject </link>
-        <screenshot1> images/manager.jpeg </screenshot1>
-        <screenshot2>/images/manager.jpeg </screenshot2>
+
     </project> 
         <project> 
         <title> Linux: Advanced OS Projects, beginner to advanced</title>
