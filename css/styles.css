@@ -287,33 +287,3 @@ main {
   box-shadow: #121212 0 0 0 3px, transparent 0 0 0 0;
 }
 
-#tech-stack {
-    font-family: Arial, sans-serif;
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  .tech-category {
-    margin-bottom: 20px;
-  }
-  
-  .tech-category h3 {
-    color: #333;
-    margin-bottom: 10px;
-  }
-  
-  .tech-category ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .tech-category ul li {
-    margin-bottom: 10px;
-  }
-  
-  .tech-category ul li strong {
-    font-weight: bold;
-    color: #0056b3;
-  }
-  
